@@ -1,0 +1,15 @@
+body{font-family: 'Atkinson Hyperlegible', sans-serif;;
+    flex: auto
+    
+}
+.titulo{
+    color: #16F275;
+}
+h2{
+    font-size: medium;
+}
+
+body {
+    text-align: center;
+    background-color: #276BF2;
+}
