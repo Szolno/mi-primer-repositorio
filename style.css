@@ -1,15 +1,53 @@
-body{font-family: 'Atkinson Hyperlegible', sans-serif;;
-    flex: auto
+body{ font-family: 'Atkinson Hyperlegible', sans-serif;
+    background-color: #EFF3F3;
+    text-align: center;
+    display: flex; 
+    justify-content: center; 
+    flex-direction: column;
     
 }
-.titulo{
-    color: #16F275;
-}
-h2{
-    font-size: medium;
+
+h1{
+    margin-bottom: 5px;
 }
 
-body {
-    text-align: center;
-    background-color: #276BF2;
+#tituloS{
+    margin-top: 50px;
+}
+
+.titulo{
+    margin-top: 2px;
+    color: #0995C5;
+}
+
+#hero{
+    max-width: 200px;
+    margin: 25px;
+    margin-top: 25px;
+    padding: 25px;
+}
+
+h2{ color: #737574;
+    font-size: medium;
+    margin-top: 5px;
+}
+
+.texto {
+    display: flex; 
+    justify-content: center;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-size: large;
+    font-weight: 300;
+    color: #737574;
+    margin-top: 25px;
+    }   
+
+footer{background-color: #4287BA;
+    font-size: smaller;
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+}
+#corazon{
+    max-width: 10px;
 }
